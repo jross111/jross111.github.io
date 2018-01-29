@@ -5,7 +5,7 @@ Test
 
 This is a simple and minimalist template for Jekyll designed for developers that want to show of their portfolio.
 
-The Theme features:
+The Theme features!
 
 - Gulp
 - SASS
