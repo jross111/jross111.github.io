@@ -1,6 +1,6 @@
 # Site settings
 title: JamesRoss.us
-description: A blog about lorem ipsum dolor sit amet
+
 # baseurl: "/particle" # the subpath of your site, e.g. /blog
 # url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
@@ -8,7 +8,7 @@ description: A blog about lorem ipsum dolor sit amet
 username: James Ross
 user_description: Full stack web developer with a unique perspective on problem solving stemming from my passion for Music, Game Theory and Blockchain Technology.
 user_title: Software Developer
-email: JamesDRoss221@gmail.com
+email: jross.nyc111@gmail.com
 github_username:  jross111
 
 
