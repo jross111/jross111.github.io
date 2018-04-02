@@ -14,6 +14,6 @@ github_username:  jross111
 
 # Google-analytics
 google-analytics:
-  id: ""
+  id: "UA-116857521-1"
 
 exclude: ['package.json', 'src' , 'node_modules']
