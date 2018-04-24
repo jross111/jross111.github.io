@@ -1,12 +1,46 @@
- <div class="user-details">
+<div class="user-details">
+  <style>
+    .tooltip {
+      position: relative;
+      display: inline-block;
+      border-bottom: 1px dotted black;
+    }
+
+    .tooltip .tooltiptext {
+      visibility: hidden;
+      width: 100%;
+      height: 100%;
+      background-color: #F272;
+      color: #FFFF;
+      text-align: center;
+      border-radius: 6px;
+      padding: 5px 0;
+      
+
+      /* Position the tooltip */
+      position: absolute;
+      z-index: 1;
+    }
+
+    .tooltip:hover .tooltiptext {
+      visibility: visible;
+    }
+  </style>
   <h2> About </h2>
   <p> {{site.user_description}} </p>
 </div>
 <div class="user-details">
   <div class="user">
+
     <div class="tech">
       <h3>Front End</h3>
-      <i class="devicon-html5-plain-wordmark"></i>
+      <!-- <div class="tooltip"> -->
+        
+          <i class="devicon-html5-plain-wordmark">
+            <!-- <span class="tooltiptext">HTML 5</span> -->
+          </i>
+      
+      <!-- </div> -->
       <i class="devicon-css3-plain colored"></i>
       <i class="devicon-javascript-plain colored"></i>
       <i class="devicon-bootstrap-plain-wordmark colored"></i>
@@ -29,15 +63,15 @@
       <i class="devicon-github-plain-wordmark colored"></i>
       <i class="devicon-d3js-plain colored"></i>
       <i class="devicon-cucumber-plain-wordmark colored"></i>
-      
-
-
-    </div>
 
 
 
     </div>
 
-    </div>
+
+
   </div>
+
+</div>
+</div>
 </div>
