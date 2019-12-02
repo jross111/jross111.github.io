@@ -1,4 +1,5 @@
 #about {
+  font-family: "Courier New", Courier, monospace;
   width: 90%;
   margin: 0 auto;
   max-width: 960px;
@@ -8,11 +9,12 @@
 }
 
 .tech {
+  font-family: "Courier New", Courier, monospace;
   margin: 10px;
 }
 
 .user {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   text-align: center;
   font-size: 60px;
   display: flex;
@@ -29,6 +31,7 @@
 }
 
 .user-details {
+  font-family: "Courier New", Courier, monospace;
   text-align: center;
   margin: 5px auto;
 }
